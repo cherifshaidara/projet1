@@ -1,7 +1,7 @@
 body{
     font-family:  'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient( rgba(255, 255, 255, 0.863), rgba(89, 243, 51, 0.863)),
-                  url("img1.avif");
+                  url("assets/img1.avif");
    background-size: 100%;
     height: 100vh;
     color: black;
