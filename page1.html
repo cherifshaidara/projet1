@@ -7,55 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <form action="">
-        <p class="titre"> S'enregistrer</p>
-        <div class="champ">
-            <label for="nom">Nom</label>
-            <input type="text" id="nom">
+    <div class="formulaire">
+        <form action="">
+            <p class="titre"> S'enregistrer</p>
+            <div class="champ">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom">
+            </div>
+            <div class="champ">
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom">
+            </div>
+            <div class="champ">
+                <label for="age">Age</label>
+                <input type="date" id="age">
+            </div>
+            <div class="champ">
+                <label for="sexe">Sexe</label>
+                <input type="radio">
+                <label for="sexe">Homme</label>
+                <input type="radio">
+                <label for="sexe">Femme</label>
+            </div>
+            <div class="champ">
+                <label for="niveau">Niveau</label>
+                <input type="checkbox">
+                <label for="">L1</label>
+                <input type="checkbox">
+                <label for="">L2</label>
+                <input type="checkbox">
+                <label for="">L3</label>
+            </div>
+            <div class="champ">
+                <label for="fielere">Filiere</label>
+                <select name="filiere" id="filiere">
+                    <option value="">3ER</option>
+                    <option value="">AB</option>
+                    <option value="">AG</option>
+                    <option value="">CFA</option>
+                    <option value="">GI</option>
+                    <option value="">HT</option>
+                    <option value="">MA</option>
+                    <option value="">MC</option>
+                </select>
+            </div>
+        <div class="sub">
+            <input type="submit" value="Enregistrer" id="">
         </div>
-        <div class="champ">
-            <label for="prenom">Prenom</label>
-            <input type="text" id="prenom">
-        </div>
-        <div class="champ">
-            <label for="age">Age</label>
-            <input type="date" id="age">
-        </div>
-        <div class="champ">
-            <label for="sexe">Sexe</label>
-            <input type="radio">
-            <label for="sexe">Homme</label>
-            <input type="radio">
-            <label for="sexe">Femme</label>
-        </div>
-        <div class="champ">
-            <label for="niveau">Niveau</label>
-            <input type="checkbox">
-            <label for="">L1</label>
-            <input type="checkbox">
-            <label for="">L2</label>
-            <input type="checkbox">
-            <label for="">L3</label>
-        </div>
-        <div class="champ">
-            <label for="fielere">Filiere</label>
-            <select name="filiere" id="filiere">
-                <option value="">3ER</option>
-                <option value="">AB</option>
-                <option value="">AG</option>
-                <option value="">CFA</option>
-                <option value="">GI</option>
-                <option value="">HT</option>
-                <option value="">MA</option>
-                <option value="">MC</option>
-            </select>
-        </div>
-    <div class="sub">
-        <input type="submit" value="Enregistrer" id="">
-    </div>
-       
         
-    </form>
+            
+        </form>
+    </div>
+
+       
 </body>
 </html>
