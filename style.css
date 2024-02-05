@@ -1,12 +1,12 @@
 body{
     font-family:  'Arial Narrow', Arial, sans-serif;
-    background-image: url("img1.avif")  ;
+    background-image: url("img1.avif");
     background-size: cover;
 }
 form{
     border-radius: 15px;
     width: 20%;
-    background-color: rgb(214, 218, 213);
+    background-color: rgb(157, 199, 146);
     position: relative;
     margin: 30% 10% 10% 70%;
     padding: 20px;
